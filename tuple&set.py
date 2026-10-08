@@ -47,7 +47,7 @@ t1 = (12,54,True,"Hello",(67,3453,False))
 s1 = {12,13,13,14,14,145,154,1656,546,4564} 
 # output -> isne error nahi diya -> {546, 12, 13, 14, 145, 4564, 1656, 154} khud he duplicates hta diye
 # lekin koi order nahi hota ouput ka issiliye unordered hota hai
-print(s1)
+print(type(s1))
 
 # Sets mai indexing nahi hota hai uske element ko index se access nahi kr sakte hai
 # loop krke dekhte hai 
